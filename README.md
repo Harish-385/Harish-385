@@ -62,7 +62,18 @@
 
 ---
 
-### 🏭 2. [Industrial Mill Residue Prediction System — Ramco Cements](https://github.com/Harish-385)
+### 📚 2. [StudyMate AI — Contextual RAG Academic Copilot](https://github.com/Harish-385/Studymate_AI)
+> **Tech Stack:** Python, FastAPI, LangChain, pgvector, ChromaDB, Groq Llama-3, Supabase  
+> **Source:** [GitHub Repository](https://github.com/Harish-385/Studymate_AI) | **Live Demo:** [GitHub](https://github.com/Harish-385/Studymate_AI)
+
+- **End-to-End RAG Architecture:** Engineered a high-speed LangChain RAG pipeline with hybrid vector indexing (**pgvector & ChromaDB**) for complex unstructured lecture notes, syllabi, and multi-page PDFs with zero hallucinations.
+- **Agentic Grounding & Fast Inference:** Integrated Groq LPU inference with **Llama-3** and tool-calling for real-time web search grounding, achieving sub-second query latency and verified source citations.
+- **Automated Academic Synthesis:** Built few-shot prompt orchestrators producing deterministic, university exam-ready model answers (2, 13, and 16 marks) with ASCII architecture diagrams.
+- **Interactive Self-Grading Engine:** Implemented automated MCQ quiz generators (3–20 questions) with instant scoring, answer rationales, and concept summary cards.
+
+---
+
+### 🏭 3. [Industrial Mill Residue Prediction System — Ramco Cements](https://github.com/Harish-385)
 > **Tech Stack:** Python, XGBoost, scikit-fuzzy, SCADA Digital Twin, Django, Predictive Analytics  
 > **Source:** [GitHub Repository](https://github.com/Harish-385)
 
@@ -72,7 +83,7 @@
 
 ---
 
-### 🛡️ 3. [Certora — Blockchain Certificate Management System](https://certora-ai.vercel.app)
+### 🛡️ 4. [Certora — Blockchain Certificate Management System](https://certora-ai.vercel.app)
 > **Tech Stack:** React, Flask, PostgreSQL, Ethereum Sepolia, Web3, REST APIs  
 > **Source:** [GitHub Repository](https://github.com/Harish-385/Certora) | **Live Demo:** [certora-ai.vercel.app](https://certora-ai.vercel.app)
 
@@ -82,7 +93,7 @@
 
 ---
 
-### 🏛️ 4. [Ramco Clg Webpage — Full-Stack ERP & Campus Portal](https://ritrjpm.ac.in)
+### 🏛️ 5. [Ramco Clg Webpage — Full-Stack ERP & Campus Portal](https://ritrjpm.ac.in)
 > **Tech Stack:** React 19, TypeScript, Django REST Framework, PostgreSQL, PyMuPDF, Chart.js  
 > **Source:** [GitHub Repository](https://github.com/Harish-385) | **Live Portal:** [ritrjpm.ac.in](https://ritrjpm.ac.in)
 
@@ -95,7 +106,6 @@
 
 | Project | Stack | Overview & Impact | Links |
 | :--- | :--- | :--- | :--- |
-| **StudyMate AI** | `FastAPI` `LangChain` `pgvector` `ChromaDB` `Llama-3` | **Contextual RAG Academic Copilot:** Ingests unstructured lecture notes & PDFs into hybrid vector stores for hallucination-free document Q&A, automated model exam answer generation (2/13/16 marks), and interactive self-grading quizzes. | [Repo](https://github.com/Harish-385/Studymate_AI) |
 | **AI Weather Prediction** | `Python` `Flask` `Scikit-Learn` `Leaflet.js` | **ML Weather & Outfit Advisor:** Machine learning weather forecasting system with rain probability estimators, real-time wind map telemetry, and smart daily clothing recommendations. | [Repo](https://github.com/Harish-385/Weather_prediction) |
 | **Email Spam Detection** | `Python` `Scikit-Learn` `NLP` `TF-IDF` `Flask` | **NLP Spam Classifier:** Real-time email categorization utilizing TF-IDF vectorization and Naive Bayes, paired with an analytics dashboard tracking prediction logs and live stat counters. | [Repo](https://github.com/Harish-385/Email-Spam-Detection) |
 | **Lane Change Detection** | `Python` `OpenCV` `Computer Vision` | **Traffic Video Stream Analysis:** Real-time video processing pipeline that detects road markings and automatically flags unsafe vehicle lane changes from live traffic monitoring camera feeds. | [Repo](https://github.com/Harish-385) |
